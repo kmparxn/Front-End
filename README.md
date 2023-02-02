@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
 
-# FrontEnd
+# Front-End
 
 # Diagrama de arquitectura de la solución (Basada en la nube de Azure). 
 
