@@ -28,11 +28,11 @@ El patrón de diseño de repositorio es uno de los más populares para crear una
 
 Ventajas del patrón de repositorio:
 
-    El código de acceso a los datos puede ser reutilizado.
-    Es fácil de implementar la lógica del dominio.
-    Nos ayuda a desacoplar la lógica de la aplicación.
-    La lógica de negocio puede ser probada fácilmente sin acceso a los datos.
-    Es una buena manera de implementar la inyección de dependencia que hace que el código sea más fácil de probar
+*    El código de acceso a los datos puede ser reutilizado.
+*    Es fácil de implementar la lógica del dominio.
+*    Nos ayuda a desacoplar la lógica de la aplicación.
+*    La lógica de negocio puede ser probada fácilmente sin acceso a los datos.
+*    Es una buena manera de implementar la inyección de dependencia que hace que el código sea más fácil de probar
 
 # Demo
 
