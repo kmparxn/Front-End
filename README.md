@@ -1,10 +1,21 @@
-# Users
+# [Angular-Front-End](https://angular.com/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/main/LICENSE) 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
+Reto Tecnico - FullStack - TEvolvers
 
-# Front-End
+## [Demo](https://reactjs.org/docs/getting-started.html)
 
-# Diagrama de arquitectura de la solución (Basada en la nube de Azure). 
+## Stack Tecnologico
+
+Principales tecnologias para el proyecto users:
+
+* **Angular:** 
+* **Angular Material** 
+* **The RxJS library**
+* **SCSS** 
+
+## Arquitectura
+
+### Diagrama de arquitectura de la solución (Basada en la nube de Azure). 
 
 ![Arquitectura](https://user-images.githubusercontent.com/42001590/206023489-32c65f64-d02a-48fe-b0ad-76502b3d6b56.png)
 
