@@ -13,9 +13,10 @@ import { UsersService } from 'src/app/services/users.service';
 
 export class DialogComponent implements OnInit {
 
-  freshnessList = ["Medellin", "Bogota", "Cali"];
   productForm !: FormGroup;
   actionBtn : string = "save";
+  actionBtn2 : string = "save";
+
   id: string | null;
 
   constructor(private formBuilder : FormBuilder,
@@ -29,24 +30,24 @@ export class DialogComponent implements OnInit {
 
   ngOnInit(): void {
     this.productForm = this.formBuilder.group({
-      productname : ['',Validators.required],
-      category : ['',Validators.required],
+      name : ['',Validators.required],
+      lastname : ['',Validators.required],
+      address : ['',Validators.required],
       date : ['',Validators.required],
-      freshness : ['',Validators.required],
-      price : ['',Validators.required],
-      comment : ['',Validators.required]
+      gender : ['',Validators.required],
+      age : ['',Validators.required]
 
     });
 
     if(this.editData){
 
       this.actionBtn = "update";
-      this.productForm.controls['productname'].setValue(this.editData.productname);
-      this.productForm.controls['category'].setValue(this.editData.category);
+      this.productForm.controls['name'].setValue(this.editData.name);
+      this.productForm.controls['lastname'].setValue(this.editData.lastname);
+      this.productForm.controls['address'].setValue(this.editData.address);
       this.productForm.controls['date'].setValue(this.editData.date);
-      this.productForm.controls['price'].setValue(this.editData.price);
-      this.productForm.controls['freshness'].setValue(this.editData.freshness);
-      this.productForm.controls['comment'].setValue(this.editData.comment);
+      this.productForm.controls['gender'].setValue(this.editData.gender);
+      this.productForm.controls['age'].setValue(this.editData.age);
       
     }
   }

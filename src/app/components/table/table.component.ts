@@ -6,6 +6,7 @@ import { MatTableDataSource } from '@angular/material/table';
 import { ToastrService } from 'ngx-toastr';
 import { UsersService } from 'src/app/services/users.service';
 import { DialogComponent } from '../dialog/dialog.component';
+import { ValdialogComponent } from '../valdialog/valdialog.component';
 
 @Component({
   selector: 'app-table',
@@ -58,11 +59,15 @@ export class TableComponent implements OnInit{
       })
   }
 
-  deleteProduct(id: string){
-
-    this.api.deleteProducto(id) 
-    this.getAllProducts();
-    this.toastr.success('The product was deleted successfully!', 'Product Deleted!');
+  deleteProduct(row : any){
+    this.dialog.open(ValdialogComponent, {
+      width: '30%',
+      data : row
+    }).afterClosed().subscribe(val => {
+      if(val === 'delete'){
+        this.getAllProducts();
+      }
+    })
 
   }
 

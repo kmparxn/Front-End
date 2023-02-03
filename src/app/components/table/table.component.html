@@ -11,7 +11,7 @@
     <div style="margin-top: 10px" >
       <div>
     <button mat-raised-button>User List</button>
-    <button mat-raised-button>Add User</button>
+    <button mat-raised-button  (click)="openDialog()">Add User</button>
       </div>
       <mat-form-field appearance="fill">
         <mat-label>Filter</mat-label>
@@ -61,7 +61,7 @@
               <button mat-icon-button (click)="editProduct(row)"  color="primary">
                 <mat-icon>edit</mat-icon>
               </button>
-              <button (click)="deleteProduct(row._id)"  mat-icon-button color="warn">
+              <button (click)="deleteProduct(row)"  mat-icon-button color="warn">
                 <mat-icon>delete</mat-icon>
               </button>
             </td>

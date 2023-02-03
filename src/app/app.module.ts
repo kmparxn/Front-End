@@ -29,6 +29,7 @@ import { UserprofileComponent } from './pages/userprofile/userprofile.component'
 
 import { ToastrModule } from 'ngx-toastr';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { ValdialogComponent } from './components/valdialog/valdialog.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
     HeaderComponent,
     SidebarComponent,
     UserprofileComponent,
+    ValdialogComponent,
   ],
   imports: [
     BrowserModule,

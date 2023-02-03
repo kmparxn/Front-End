@@ -1,24 +1,28 @@
-mat-form-field{
-    width: 100%;
+.content{
+    padding-top: 5px;
+    margin-top: -15px;
 }
 
-.mat-dialog-content {
-    max-height: 500px;
+.titee{
+    padding-top: -50px;
+    margin-top: -30px;
 }
 
-.example-radio-group {
+.row{
     display: flex;
-    flex-direction: column;
-    margin: 15px 0;
-    align-items: flex-start;
-}
-  
-.example-radio-button {
-    margin: 5px;
+    gap: 1px;
+
+    mat-form-field{
+        width: 100%;
+    }
 }
 
-.mat-raised-button{
-    margin-top: 25px;
-    float: right;
-    margin-left: 8px;
+.action{
+    padding: 0px 25px 20px;
+    margin-top: 10px;
+    
+    button{
+        flex: 1;
+    }
 }
+

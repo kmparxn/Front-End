@@ -5,15 +5,15 @@ import { Injectable } from '@angular/core';
 })
 export class UsersService {
 
-  info = [{ _id: "62d07d3bbdde73f2ca9edb2p", name: "Moto", lastname: "Bogota", date: "2022-07-12T05:00:00.000Z", address: "13:00",
-  gender: 50, age: "Santafe De Bogota"}, { _id: "62d07d3bbdde73f2ca9edb2v", name: "Carro", lastname: "Medellin", date: "2022-07-12T05:00:00.000Z", address: "13:00",
-  gender: 50, age: "Santafe De Bogota"}, { _id: "62d07d3bbdde73f2ca9edb2w", name: "Moto", lastname: "Cali", date: "2022-07-12T05:00:00.000Z", address: "13:00",
-  gender: 50, age: "Santafe De Bogota"}, { _id: "62d07d3bbdde73f2ca9edb2y", name: "Bus", lastname: "Cali", date: "2022-07-12T05:00:00.000Z", address: "13:00",
-  gender: 50, age: "Santafe De Bogota"}, { _id: "62d07d3bbdde73f2ca9edb2c", name: "Bus", lastname: "Bogota", date: "2022-07-12T05:00:00.000Z", address: "13:00",
-  gender: 50, age: "Santafe De Bogota"}, { _id: "s62d07d3bbdde73f2ca9edb2d", name: "Carro", lastname: "Medellin", date: "2022-07-12T05:00:00.000Z", address: "13:00",
-  gender: 50, age: "Santafe De Bogota"}, {_id: "262d07d3bbdde73f2ca9edb2e", name: "Moto", lastname: "Cali", date: "2022-07-12T05:00:00.000Z", address: "13:00",
-  gender: 50, age: "Santafe De Bogota"}, {_id: "s362d07d3bbdde73f2ca9edb2f", name: "Carro", lastname: "Medellin", date: "2022-07-12T05:00:00.000Z", address: "13:00",
-  gender: 50, age: "Santafe De Bogota"}]
+  info = [{ _id: "62d07d3bbdde73f2ca9edb2p", name: "Sara", lastname: "Torres", date: "2022-07-12T05:00:00.000Z", address: "Carrera 12 # 21-12",
+  gender: "male", age: "12"}, { _id: "62d07d3bbdde73f2ca9edb2v", name: "Andrea", lastname: "Ospina", date: "2022-07-12T05:00:00.000Z", address: "Carrera 12 # 21-12",
+  gender: "female", age: "14"}, { _id: "62d07d3bbdde73f2ca9edb2w", name: "Catalina", lastname: "Montoya", date: "2022-07-12T05:00:00.000Z", address: "Carrera 12 # 21-12",
+  gender: "male", age: "20"}, { _id: "62d07d3bbdde73f2ca9edb2y", name: "Sandra", lastname: "Herrera", date: "2022-07-12T05:00:00.000Z", address: "Carrera 12 # 21-12",
+  gender: "male", age: "40"}, { _id: "62d07d3bbdde73f2ca9edb2c", name: "Valentina", lastname: "Velez", date: "2022-07-12T05:00:00.000Z", address: "Carrera 12 # 21-12",
+  gender: "female", age: "20"}, { _id: "s62d07d3bbdde73f2ca9edb2d", name: "Daniela", lastname: "Smith", date: "2022-07-12T05:00:00.000Z", address: "Carrera 12 # 21-12",
+  gender: "male", age: "34"}, {_id: "262d07d3bbdde73f2ca9edb2e", name: "Victor", lastname: "Jaramillo", date: "2022-07-12T05:00:00.000Z", address: "Carrera 12 # 21-12",
+  gender: "male", age: "12"}, {_id: "s362d07d3bbdde73f2ca9edb2f", name: "Felipe", lastname: "Vasquez", date: "2022-07-12T05:00:00.000Z", address: "Carrera 12 # 21-12",
+  gender: "female", age: "20"}]
 
   constructor() { }
 
@@ -40,10 +40,10 @@ export class UsersService {
 
   }
 
-  deleteProducto(id: string) {
+  deleteProducto(data: any) {
 
     this.info = this.info.filter(function(item) {
-      return item._id !== id
+      return item._id !== data._id
     });
     
     return this.info  
