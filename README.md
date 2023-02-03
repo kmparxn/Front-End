@@ -1,8 +1,6 @@
 # [Angular-Front-End](https://angular.com/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/main/LICENSE) 
 
-Reto Tecnico - FullStack - TEvolvers
-
-## [Demo](https://reactjs.org/docs/getting-started.html)
+### Reto Tecnico - FullStack - TEvolvers [(Demo)](https://reactjs.org/docs/getting-started.html) 
 
 ## Stack Tecnologico
 
