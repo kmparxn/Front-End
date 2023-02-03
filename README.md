@@ -35,9 +35,14 @@ Ventajas del patrón de repositorio:
 *    Es una buena manera de implementar la inyección de dependencia que hace que el código sea más fácil de probar
 
 ## Paso a Paso para levantamiento Del Componente
-* **Declarative:** React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable, simpler to understand, and easier to debug.
-* **Component-Based:** Build encapsulated components that manage their own state, then compose them to make complex UIs. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep the state out of the DOM.
-* **Learn Once, Write Anywhere:** We don't make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code. React can also render on the server using Node and power mobile apps using [React Native](https://reactnative.dev/).
+
+* **Etapa1:** Análisis de documentación, requerimientos y logica del proyecto.
+* **Etapa2:** Creacion del proyecto y instalacion de las diferentes librerias y dependencias, configuracion del proyecto.
+* **Etapa3:** Creacion de componentes, servicios y rutas.
+* **Etapa4:** Pruebas Unitarias
+* **Etapa5:** Integracion con el Back-End
+* **Etapa6:** Despliegue del proyecto
+
 # Demo
 
 ![Captura de pantalla (983)](https://user-images.githubusercontent.com/42001590/216455204-f6b4e799-4db2-471e-ad35-7b7bd73831eb.png)
