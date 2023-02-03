@@ -1,27 +1,36 @@
-# Users
+# [Angular-Front-End](https://angular.com/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/main/LICENSE) 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
+### Reto Tecnico - FullStack - TEvolvers [(Demo)](https://reactjs.org/docs/getting-started.html) 
 
-## Development server
+## Stack Tecnologico
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Principales tecnologias para el proyecto users:
 
-## Code scaffolding
+* **Angular:** 
+* **Angular Material** 
+* **The RxJS library**
+* **SCSS** 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Arquitectura
 
-## Build
+### Diagrama de arquitectura de la solución (Basada en la nube de Azure). 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![Arquitectura](https://user-images.githubusercontent.com/42001590/206023489-32c65f64-d02a-48fe-b0ad-76502b3d6b56.png)
 
-## Running unit tests
+# Diagrama de Clases
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![Captura de pantalla (982)](https://user-images.githubusercontent.com/42001590/216451131-1b189b36-0d8b-45be-9a96-47c4431a86ee.png)
 
-## Running end-to-end tests
+## Paso a Paso para levantamiento Del Componente
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+* **Etapa1:** Análisis de documentación, requerimientos y logica del proyecto.
+* **Etapa2:** Creacion del proyecto y instalacion de las diferentes librerias y dependencias, configuracion del proyecto.
+* **Etapa3:** Creacion de componentes, servicios y rutas.
+* **Etapa4:** Pruebas Unitarias
+* **Etapa5:** Integracion con el Back-End
+* **Etapa6:** Despliegue del proyecto
 
-## Further help
+# Demo
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![Captura de pantalla (985)](https://user-images.githubusercontent.com/42001590/216730710-6efac03e-4afc-42cf-bf38-479752e27276.png)
+
