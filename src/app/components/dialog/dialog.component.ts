@@ -31,8 +31,8 @@ export class DialogComponent implements OnInit {
   ngOnInit(): void {
     this.productForm = this.formBuilder.group({
       name : ['',Validators.required],
-      lastname : ['',Validators.required],
-      address : ['',Validators.required],
+      lastName : ['',Validators.required],
+      adress : ['',Validators.required],
       date : ['',Validators.required],
       gender : ['',Validators.required],
       age : ['',Validators.required]
@@ -55,8 +55,8 @@ export class DialogComponent implements OnInit {
   addProduct(){
     if(!this.editData){
       if(this.productForm.valid){
-
-        this.api.posProduct(this.productForm.value);
+        console.log(this.productForm)
+        this.api.addUser(this.productForm.value);
         this.toastr.success('The product was registered successfully!', 'Producto Registrado!');
         this.productForm.reset();
         this.dialogRef.close('save');
@@ -68,7 +68,7 @@ export class DialogComponent implements OnInit {
   }   
   
   updateProduct(){
-    this.api.putProducto(this.productForm.value, this.editData)
+    this.api.updateUser(this.productForm.value, this.editData)
     this.productForm.reset();
     this.dialogRef.close('update');
     this.toastr.success('The product was updated successfully!', 'Updated Product!');

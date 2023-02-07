@@ -20,11 +20,10 @@ export class ValdialogComponent  implements OnInit  {
 
   ngOnInit(): void {
   }
-
+  
     delProduct(){
-      this.api.deleteProducto(this.editData)
+      this.api.deleteUser(this.editData)
       this.dialogRef.close('delete');
       this.toastr.success('The product was deleted successfully!', 'Product Deleted!');
-  
     }
 }

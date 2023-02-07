@@ -19,6 +19,8 @@ import {MatTableModule} from '@angular/material/table';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatSortModule} from '@angular/material/sort'; 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+
 
 import { DialogComponent } from './components/dialog/dialog.component';
 import { TableComponent } from './components/table/table.component';
@@ -30,6 +32,7 @@ import { UserprofileComponent } from './pages/userprofile/userprofile.component'
 import { ToastrModule } from 'ngx-toastr';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { ValdialogComponent } from './components/valdialog/valdialog.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -62,6 +65,8 @@ import { ValdialogComponent } from './components/valdialog/valdialog.component';
     MatTableModule,
     MatPaginatorModule,
     MatSortModule,
+    MatProgressBarModule,
+    HttpClientModule,
     ToastrModule.forRoot(),
 
   ],
