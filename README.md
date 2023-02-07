@@ -20,6 +20,12 @@ Principales tecnologias para el proyecto users:
 
 ![Captura de pantalla (982)](https://user-images.githubusercontent.com/42001590/216451131-1b189b36-0d8b-45be-9a96-47c4431a86ee.png)
 
+## Patron de Diseño
+
+### Observer 
+
+Observador es un patrón de diseño de software que define una dependencia del tipo uno a muchos entre objetos, de manera que cuando uno de los objetos cambia su estado, notifica este cambio a todos los dependientes. Se trata de un patrón de comportamiento (existen de tres tipos: creación, estructurales y de comportamiento), por lo que está relacionado con algoritmos de funcionamiento y asignación de responsabilidades a clases y objetos. 
+
 ## Paso a Paso para levantamiento Del Componente
 
 * **Etapa1:** Análisis de documentación, requerimientos y logica del proyecto.
