@@ -1,6 +1,5 @@
-# [Angular-Front-End](https://angular.com/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/main/LICENSE) 
-
-### Reto Tecnico - FullStack - TEvolvers [(Demo)](https://reactjs.org/docs/getting-started.html) 
+# [Angular-Front-End](https://demo-two-psi.vercel.app/dashboard) &middot;  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/main/LICENSE) 
+### Reto Tecnico - FullStack - TEvolvers [(Demo)](https://demo-two-psi.vercel.app/dashboard)
 
 ## Stack Tecnologico
 
